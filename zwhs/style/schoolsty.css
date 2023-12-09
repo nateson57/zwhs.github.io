@@ -125,7 +125,7 @@
     /*內文*/
     .Sch {
         width: 360px;
-        height: 104px;
+        height: 154px;
         position: relative;
         overflow: hidden;
         margin-top: 10px;
@@ -133,7 +133,7 @@
 
     .Sb {
         width: 352px;
-        height: 96px;
+        height: 146px;
         left: 0px;
         top: 0px;
         position: absolute;
@@ -184,7 +184,7 @@
         width: 320px;
         height: 14px;
         left: 0px;
-        top: 67px;
+        top: 117px;
         position: absolute;
         color: black;
         font-size: 12px;
