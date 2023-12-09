@@ -18,6 +18,12 @@
   .P0{width: 339px; height: 74px; top:11%; left:2%; z-index:1; position: absolute; background:#FFEDD0; border-radius: 33px; }
   .P1{width: 339px; height: 74px; z-index:2; position: absolute; background:#7f7adc; border-radius: 33px; display: flex; align-items: center; justify-content: center; 
     color: white; font-size: 22px; font-weight: 600; word-wrap: break-word;}
+  /*公告*/
+  .Ann{width: 90%; margin: 0 auto; overflow: hidden; line-height:150%; 
+    font-size: 15px; font-weight: 600; word-wrap: break-word; }
+  .ann0{display: flex; transition: transform 0.5s ease-in-out; }
+  .ann1{min-width: 100%; box-sizing: border-box; background: #FFFBF4; border-radius: 6px; padding:10px;}
+  .ann11{font-size: 18px; font-weight: 800; color:#e83d3d; }
 
   /*下排*/
   .Logo2{width: 40px; height: 40px; left: 30px; top: 788px; position: absolute; }
@@ -47,17 +53,36 @@
 
   <!--列表-->
   <div class="List">
+  <div class="Ann">
+  <div class="ann0">
+    <div class="ann1">
+      目前許願池有很多願望大家快來<del>拯救學弟妹</del><br>
+      其中<br>
+      <span class="ann11">藥學、水產養殖、心理、國防大學、想當老師、大傳、獸醫、地理、地科</span><br>
+      目前還沒有人提供😥，希望相關科系的人可以快快出現，<del>有認識的可以拿給他填啊</del>
+    </div>
+
+    <div class="ann1">
+      另外<br>
+      <span class="ann11">設計、美術、外語文、<br>財經學群、建築、法律</span><br>
+      已經有投稿，但相關科系有很多種，<br>而且參考越多越好！趕快來！<br>
+    </div>
+  </div>
+  </div>
+    
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2W8wpbCyMMREzYHQV-tE1oAS9gHj6gcjdP92w2hPKjC2sJg/viewform?usp=sf_link" target="_blank">
   <div class="Pa">
     <div class="P0"></div>
     <div class="P1">校系介紹投稿</div>
   </div>
   </a>
-  
+    
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjlRsetYsfaAMYsd6-NgiXCJPgmAOmppoziaYYU73qazRuXw/viewform?usp=sf_link">
   <div class="Pa">
     <div class="P0"></div>
     <div class="P1">問題回報/跟我們說話</div>
   </div>
+  </a>
 
   <a href="https://instagram.com/zwhs__?igshid=NGVhN2U2NjQ0Yg==" target="_blank">
   <div class="Pa">
@@ -88,6 +113,26 @@
 
 
 </div>
+
+
+
+
+<script>
+  const carousel = document.querySelector('.ann0');
+  let currentIndex = 0;
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % carousel.children.length;
+    updateCarousel();
+  }
+
+  function updateCarousel() {
+    const translateValue = -currentIndex * 100 + '%';
+    carousel.style.transform = `translateX(${translateValue})`;
+  }
+
+  setInterval(nextSlide, 9000);
+</script>
 
 </body>
 </html>
