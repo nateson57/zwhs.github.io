@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    background-color: #ffd1b0;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.Box1 {
+    overflow: hidden;
+}
+
+.R1,
+.R2,
+.R3 {
+    display: inline-flex;
+    justify-content: center;
+    margin: 5px;
+    top: 81px;
+    text-align: center;
+    line-height: 51px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    width: 112px;
+    height: 51px;
+    position: relative;
+    background: #e8706c;
+    box-shadow: 2px 2px 2px rgba(162.14, 36.33, 0, 0.78);
+    border-radius: 8px
+}
+
+.Fl {
+    text-align: center;
+    line-height: 36px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.Fr {
+    text-align: center;
+    line-height: 29px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.Win {
+    display: flex;
+    position: relative;
+    top: 81px;
+    margin: 15px;
+    width: 363px;
+    height: 144px;
+}
+
+.W1 {
+    width: 358px;
+    position: absolute;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 18.45px;
+    border-bottom-left-radius: 18.45px;
+}
+
+.W1-front {
+    height: 101px;
+    left: 0px;
+    top: 38px;
+    background: #FFFBF4;
+}
+
+.W1-back {
+    height: 116px;
+    left: 5px;
+    top: 28px;
+    background: rgba(255, 251, 244, 0.60);
+}
+
+.T1 {
+    z-index: 2;
+    width: 358px;
+    height: 35px;
+    background: #7F7ADC;
+    border-top-left-radius: 9.10px;
+    border-top-right-radius: 9.10px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+.C11 {
+    z-index: 3;
+    width: 19px;
+    height: 17px;
+    left: 8px;
+    top: 11px;
+    position: absolute;
+    background: #FF896E;
+    border-radius: 9999px
+}
+
+.C12 {
+    z-index: 3;
+    width: 18px;
+    height: 17px;
+    left: 32px;
+    top: 11px;
+    position: absolute;
+    background: #F3FF6E;
+    border-radius: 9999px
+}
+
+.C13 {
+    z-index: 3;
+    width: 17px;
+    height: 17px;
+    left: 55px;
+    top: 11px;
+    position: absolute;
+    background: #6EFFC2;
+    border-radius: 9999px
+}
+
+.name {
+    left: 18px;
+    top: 50px;
+    position: absolute;
+    color: #2C1A65;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.include {
+    width: 196px;
+    height: 26px;
+    left: 155px;
+    top: 107px;
+    position: absolute;
+    text-align: right;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.T {
+    width: 390px;
+    height: 71px;
+    left: 0px;
+    top: -12px;
+    position: absolute;
+    background: #e8896c;
+    border-bottom-left-radius: 42.25px;
+    border-bottom-right-radius: 42.25px;
+}
+
+.Logo1 {
+    width: 45px;
+    height: 43px;
+    left: 325px;
+    top: 5px;
+    position: absolute
+}
+
+.W-plan {
+    width: 121px;
+    height: 40px;
+    left: 20px;
+    top: 8px;
+    position: absolute;
+    color: #B74D21;
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 100;
+    word-wrap: break-word
+}
