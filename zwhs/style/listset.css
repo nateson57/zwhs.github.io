@@ -2,4 +2,5 @@ button {
     background-color: rgba(0, 0, 0, 0);
     border: none;
     cursor: zoom-in;
+    padding: 0;
 }
