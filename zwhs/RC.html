@@ -1,57 +1,42 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-</head>
-<style>
-  body{margin: 0; background-color:#ffd1b0; max-width: 100%; margin: 0 auto; padding: 20px; font-family: Inter; }
-  a{text-decoration:none; }
-  
-  /*按鈕*/
-    .R1,.R2,.R3{text-align:center; line-height:51px; font-size:20px; color:white; font-weight:bold; 
-  width: 112px; height: 51px; background: #e8706c; box-shadow: 2px 2px 2px rgba(162.14, 36.33, 0, 0.78); border-radius: 8px; }
-  
-  /*上排*/
-    .T{width: 390px; height: 71px; left: 0px; top: -12px; position: absolute; background: #e8896c; border-bottom-left-radius: 42.25px; border-bottom-right-radius: 42.25px; }
-  .Logo1{width: 45px; height: 43px; left: 325px; top: 5px; position: absolute; }
-  .Tt{width: 121px; height: 40px; left: 20px; top: 8px; position: absolute; color: #B74D21; font-size: 28px; font-weight: 100; word-wrap: break-word; }
-  
-  /*列表*/
-    /*黑背*/
-    .Bg2{width: 390px; left: 0px; top: 156px; position: absolute; background: #565552; border-top-left-radius: 42.25px; border-top-right-radius: 42.25px; 
-    display: flex;/*彈性容器*/ flex-direction: column;/*水平置中*/ gap: 60px;/*物件間距*/ padding-top:34px; 
-    }
-    /*返回*/
-    .Back{width: 175px; height: 46px; left: 21px; position:relative; background: #9E9E9C; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.78); border-radius: 22px; color: white; font-size: 24px; font-weight: 600; word-wrap: break-word; text-align:left; padding-left:2%; line-height:46px; }
-    /*學校*/
-    .AA{width: 353.76px; left: 18px; position:relative; display: flex;/*彈性容器*/ flex-direction: column;/*水平置中*/ gap: 20px;/*物件間距*/}
-    .Lt{left: 2px; position: relative; color: white; font-size: 14px; font-weight: 700; word-wrap: break-word; }
-    .Tp1{width: 352.76px; height: 78px; left: 1px; position: relative; }
-    .S0{width: 347.13px; height: 72.74px; left: 5.63px; top: 5.26px; position: absolute; background: #FEF0CE; border-radius: 23px; }
-    .S1{width: 349.95px; height: 74.49px; position: absolute; background: #FFFBF4; border-radius: 23px; line-height:75px; color: #7F7ADC; font-size: 30px; font-weight: 600; word-wrap: break-word; }
-
-</style>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/schoolsty.css">
+    <link rel="stylesheet" href="style/listset.css">
+    <title>中部地區</title>
+  </head>
 <body>
-  <!--按鈕-->
-  <a href="index.html"><div class="R1" style="left: 15px; top: 81px; position: absolute; ">
+  <script>
+    function toggleDisplay(elementId) {
+      var element = document.getElementById(elementId);
+      if (element.style.display === "none") {
+        element.style.display = "block";
+      } else {
+        element.style.display = "none";
+      }
+    }
+  </script>
+    <!--按鈕-->
+    <a href="index.html"><div class="R1">
     地圖
-  </div></a>
+    </div></a>
 
-  <a href="R2.html"><div class="R2" style="left: 138px; top: 81px; position: absolute; ">
+    <a href="R2.html"><div class="R2">
     院所
-  </div></a>
+    </div></a>
 
-  <a href="R3.html"><div class="R3" style="left: 261px; top: 81px; position: absolute; ">
+    <a href="R3.html"><div class="R3">
     其餘
-  </div></a>
+    </div></a>
 
-  <!--上排-->
-<div class="T">
-  <img class="Logo1" src="https://cdn.discordapp.com/attachments/1181233142984613958/1181244032677072987/logo.png?ex=65805a3b&is=656de53b&hm=717b3650549242b783d0e75d0d10ab9e04f0b86dc01d0055f0bc3b7b6b1dd66d&" >
-  <div class="Tt">校系企劃</div>
-</div>
+    <!--上排-->
+    <div class="T"></div>
+    <img class="Logo1" src="https://cdn.discordapp.com/attachments/1181233142984613958/1181244032677072987/logo.png?ex=65805a3b&is=656de53b&hm=717b3650549242b783d0e75d0d10ab9e04f0b86dc01d0055f0bc3b7b6b1dd66d&" />
+    <div class="W-plan">校系企劃</div>
+    </div>
 
 <div class="Bg2">
     
@@ -63,19 +48,85 @@
 
          <div class="Lt">台中</div>    
 
-        <div class="Tp1">
-            <div class="S0"></div>
-            <div class="S1">　亞洲大學</div>
+        <button onclick="toggleDisplay('Asia University')">
+          <div class="Tp1">
+              <div class="S0"></div>
+              <div class="S1">　亞洲大學</div>
+          </div>
+        </button>
+
+        <div id="Asia University" style="display: none;">
+          <div class="Sch">
+            <div class="Sb"></div>
+            <div class="T1">
+              <img class="Icon" src="https://cdn.discordapp.com/attachments/898608686103142462/1181514385001287772/export202312051635557855.png?ex=65815604&is=656ee104&hm=b95b59bf56951344b32327ea6aeb9b07361e9ff4d4b4e3c31213ec72d8f5ac87&">
+              <div class="School">
+                  <span class="Sna">中正大學<br/></span>
+                  <span class="Sme">企管系</span>
+              </div>
+              <div class="imgplace">
+                <div class="imgarea"><img src="https://picsum.photos/50/50" alt=""></div>
+                <div class="imgarea"><img src="https://picsum.photos/50/50" alt=""></div>
+                <div class="imgarea"><img src="https://picsum.photos/50/50" alt=""></div>
+              </div>
+              <div class="Ig">艾威朋 / IG: bill.edwards_42</div>
+              <div class="Cr"></div>
+            </div>
+          </div>
         </div>
 
-        <div class="Tp1">
-            <div class="S0"></div>
-            <div class="S1">　中興大學</div>
+        <button onclick="toggleDisplay('National Chung Hsing University')">
+          <div class="Tp1">
+              <div class="S0"></div>
+              <div class="S1">　中興大學</div>
+          </div>
+        </button>
+
+        <div id="National Chung Hsing University" style="display: none;">
+          <div class="Sch">
+            <div class="Sb"></div>
+            <div class="T1">
+              <img class="Icon" src="https://cdn.discordapp.com/attachments/898608686103142462/1181514385001287772/export202312051635557855.png?ex=65815604&is=656ee104&hm=b95b59bf56951344b32327ea6aeb9b07361e9ff4d4b4e3c31213ec72d8f5ac87&">
+              <div class="School">
+                  <span class="Sna">中正大學<br/></span>
+                  <span class="Sme">企管系</span>
+              </div>
+              <div class="imgplace">
+                <div class="imgarea"><img src="https://picsum.photos/50/50" alt=""></div>
+                <div class="imgarea"><img src="https://picsum.photos/50/50" alt=""></div>
+                <div class="imgarea"><img src="https://picsum.photos/50/50" alt=""></div>
+              </div>
+              <div class="Ig">艾威朋 / IG: bill.edwards_42</div>
+              <div class="Cr"></div>
+            </div>
+          </div>
         </div>
 
-        <div class="Tp1">
-            <div class="S0"></div>
-            <div class="S1">　體育大學</div>
+        <button onclick="toggleDisplay('Sports University')">
+          <div class="Tp1">
+              <div class="S0"></div>
+              <div class="S1">　體育大學</div>
+          </div>
+        </button>
+
+        <div id="Sports University" style="display: none;">
+          <div class="Sch">
+            <div class="Sb"></div>
+            <div class="T1">
+              <img class="Icon" src="https://cdn.discordapp.com/attachments/898608686103142462/1181514385001287772/export202312051635557855.png?ex=65815604&is=656ee104&hm=b95b59bf56951344b32327ea6aeb9b07361e9ff4d4b4e3c31213ec72d8f5ac87&">
+              <div class="School">
+                  <span class="Sna">中正大學<br/></span>
+                  <span class="Sme">企管系</span>
+              </div>
+              <div class="imgplace">
+                <div class="imgarea"><img src="https://picsum.photos/50/50" alt=""></div>
+                <div class="imgarea"><img src="https://picsum.photos/50/50" alt=""></div>
+                <div class="imgarea"><img src="https://picsum.photos/50/50" alt=""></div>
+              </div>
+              <div class="Ig">艾威朋 / IG: bill.edwards_42</div>
+              <div class="Cr"></div>
+            </div>
+          </div>
         </div>
 
     </div>
@@ -84,11 +135,51 @@
 
          <div class="Lt">南投</div>    
 
-        <div class="Tp1">
-            <div class="S0"></div>
-            <div class="S1">　暨南大學</div>
+        <button onclick="toggleDisplay('Jinan University')">
+          <div class="Tp1">
+              <div class="S0"></div>
+              <div class="S1">　暨南大學</div>
+          </div>
+        </button>
+
+        <div id="Jinan University" style="display: none;">
+          <div class="Sch">
+            <div class="Sb"></div>
+            <div class="T1">
+              <img class="Icon" src="https://cdn.discordapp.com/attachments/898608686103142462/1181514385001287772/export202312051635557855.png?ex=65815604&is=656ee104&hm=b95b59bf56951344b32327ea6aeb9b07361e9ff4d4b4e3c31213ec72d8f5ac87&">
+              <div class="School">
+                  <span class="Sna">中正大學<br/></span>
+                  <span class="Sme">企管系</span>
+              </div>
+              <div class="imgplace">
+                <div class="imgarea"><img src="https://picsum.photos/50/50" alt=""></div>
+                <div class="imgarea"><img src="https://picsum.photos/50/50" alt=""></div>
+                <div class="imgarea"><img src="https://picsum.photos/50/50" alt=""></div>
+              </div>
+              <div class="Ig">艾威朋 / IG: bill.edwards_42</div>
+              <div class="Cr"></div>
+            </div>
+          </div>
+
+          <div class="Sch">
+            <div class="Sb"></div>
+            <div class="T1">
+              <img class="Icon" src="https://cdn.discordapp.com/attachments/898608686103142462/1181514385001287772/export202312051635557855.png?ex=65815604&is=656ee104&hm=b95b59bf56951344b32327ea6aeb9b07361e9ff4d4b4e3c31213ec72d8f5ac87&">
+              <div class="School">
+                  <span class="Sna">中正大學<br/></span>
+                  <span class="Sme">企管系</span>
+              </div>
+              <div class="imgplace">
+                <div class="imgarea"><img src="https://picsum.photos/50/50" alt=""></div>
+                <div class="imgarea"><img src="https://picsum.photos/50/50" alt=""></div>
+                <div class="imgarea"><img src="https://picsum.photos/50/50" alt=""></div>
+              </div>
+              <div class="Ig">艾威朋 / IG: bill.edwards_42</div>
+              <div class="Cr"></div>
+            </div>
+          </div>
         </div>
-       
+
     </div>
 
 
