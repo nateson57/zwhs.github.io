@@ -1,0 +1,202 @@
+    .Bg2 {
+        width: 390px;
+        left: 0px;
+        top: 156px;
+        position: absolute;
+        background: #565552;
+        border-top-left-radius: 42.25px;
+        border-top-right-radius: 42.25px;
+        display: flex;
+        /*彈性容器*/
+        flex-direction: column;
+        /*水平置中*/
+        gap: 60px;
+        /*物件間距*/
+        padding-top: 34px;
+    }
+
+    .Back {
+        width: 175px;
+        height: 46px;
+        left: 21px;
+        position: relative;
+        background: #9E9E9C;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.78);
+        border-radius: 22px;
+        color: white;
+        font-size: 24px;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: left;
+        padding-left: 2%;
+        line-height: 46px;
+    }
+
+
+    .Tp1 {
+        width: 352.76px;
+        height: 78px;
+        left: 0px;
+        position: relative
+    }
+
+    .S0 {
+        width: 347.13px;
+        height: 72.74px;
+        left: 5.63px;
+        top: 5.26px;
+        position: relative;
+        background: #FEF0CE;
+        border-radius: 23px
+    }
+
+    .S1 {
+        width: 349.95px;
+        height: 74.49px;
+        left: 0px;
+        top: 0px;
+        position: relative;
+        background: #FFFBF4;
+        border-radius: 23px;
+        text-align: left;
+    }
+
+    .Ts {
+        width: 186px;
+        height: 70px;
+        left: 45px;
+        top: 17px;
+        position: relative;
+        color: #7F7ADC;
+        font-size: 30px;
+        font-family: Inter;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+
+    .AA {
+        width: 353.76px;
+        left: 18px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Lt {
+        left: 2px;
+        position: relative;
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        word-wrap: break-word;
+    }
+
+    .Tp1 {
+        width: 352.76px;
+        height: 78px;
+        left: 1px;
+        position: relative;
+    }
+
+    .S0 {
+        width: 347.13px;
+        height: 72.74px;
+        left: 5.63px;
+        top: 5.26px;
+        position: absolute;
+        background: #FEF0CE;
+        border-radius: 23px;
+    }
+
+    .S1 {
+        width: 349.95px;
+        height: 74.49px;
+        position: absolute;
+        background: #FFFBF4;
+        border-radius: 23px;
+        line-height: 75px;
+        color: #7F7ADC;
+        font-size: 30px;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+
+    /*內文*/
+    .Sch {
+        width: 360px;
+        height: 154px;
+        position: relative;
+        overflow: hidden;
+        margin-top: 10px;
+    }
+
+    .Sb {
+        width: 352px;
+        height: 146px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        background: white;
+        border-radius: 12px;
+        border: 4px #7F7ADC solid;
+    }
+
+    .T1 {
+        width: 337px;
+        height: 77px;
+        left: 15px;
+        top: 2px;
+        position: absolute;
+        font-weight: 600;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .Icon {
+        width: 47px;
+        height: 46px;
+        left: 0px;
+        top: 11px;
+        position: absolute;
+    }
+
+    .School {
+        width: 266px;
+        height: 43px;
+        left: 54px;
+        top: 14px;
+        position: relative;
+    }
+
+    .Sna {
+        color: black;
+        font-size: 15px;
+        word-wrap: break-word;
+    }
+
+    .Sme {
+        color: #E8706C;
+        font-size: 22px;
+        word-wrap: break-word;
+    }
+
+    .Ig {
+        width: 320px;
+        height: 14px;
+        left: 0px;
+        top: 117px;
+        position: absolute;
+        color: black;
+        font-size: 12px;
+        word-wrap: break-word;
+    }
+
+    .Cr {
+        width: 53px;
+        height: 48px;
+        left: 300px;
+        top: -5px;
+        position: absolute;
+        background: #584EFF;
+        border-radius: 9999px;
+    }
