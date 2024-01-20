@@ -145,7 +145,7 @@
     .T1 {
         width: 337px;
         height: 77px;
-        left: 0px;
+        left: 15px;
         top: 2px;
         position: absolute;
         font-weight: 600;
@@ -189,6 +189,7 @@
         color: black;
         font-size: 12px;
         word-wrap: break-word;
+        text-align: left;
     }
 
     .Cr {
