@@ -161,11 +161,12 @@
     }
 
     .School {
-        width: 286px;
+        width: 306px;
         height: 43px;
         left: 0px;
         top: 14px;
         position: relative;
+        
     }
 
     .Sna {
@@ -178,7 +179,7 @@
         color: #E8706C;
         font-size: 22px;
         word-wrap: break-word;
-        padding-left:5px;
+        padding-left:25px;
         
     }
 
