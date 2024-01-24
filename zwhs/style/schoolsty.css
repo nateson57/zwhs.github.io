@@ -161,7 +161,7 @@
     }
 
     .School {
-        width: 266px;
+        width: 286px;
         height: 43px;
         left: 0px;
         top: 14px;
@@ -178,6 +178,8 @@
         color: #E8706C;
         font-size: 22px;
         word-wrap: break-word;
+        padding-left:5px;
+        
     }
 
     .Ig {
