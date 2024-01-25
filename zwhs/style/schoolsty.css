@@ -173,13 +173,18 @@
         color: black;
         font-size: 15px;
         word-wrap: break-word;
+        position: absolute;
+        left: 55px;
+       
     }
 
     .Sme {
         color: #E8706C;
         font-size: 22px;
         word-wrap: break-word;
-        padding-left:25px;
+        position: absolute;
+        left: 55px;
+        top: 18px;
         
     }
 
